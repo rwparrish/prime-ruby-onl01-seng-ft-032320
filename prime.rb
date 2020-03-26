@@ -1,6 +1,1 @@
-require 'prime'
-
-Prime.prime?
-
-
-Prime.prime?
+num = gets
