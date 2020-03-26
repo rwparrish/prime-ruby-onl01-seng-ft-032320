@@ -1,1 +1,1 @@
-num = gets
+num = 
