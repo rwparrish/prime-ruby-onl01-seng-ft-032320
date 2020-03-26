@@ -1,6 +1,10 @@
-def prime?(int)
-
-num = (1..100)
-
-num_arr = num.to_a
-
+def prime?(num)
+  if num <= 1
+    return false 
+  elsif num <= 3
+    return true
+  else (2..num-1).none? do |n|
+    num % n == 0
+  end
+  end
+end
